@@ -38,7 +38,7 @@ section {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: var(--black);
+  background-color: rgb(40, 44, 52) ;
   color: #fff;
 }
 
@@ -112,17 +112,17 @@ h1 {
     top: 100px;
     transform: rotate(45deg);
   }
-
+  
   50% {
     top: 60px;
     transform: rotate(90deg);
   }
-
+  
   75% {
     top: 100px;
     transform: rotate(180deg);
   }
-
+  
   100% {
     top: 150px;
     transform: rotate(360deg);
@@ -136,4 +136,8 @@ h1 {
   100% {
     left: -20px;
   }
+}
+
+.score-div {
+padding-bottom: 12px;
 }
