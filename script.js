@@ -42,7 +42,7 @@ let isAlive = setInterval(() => {
     
     if (villianLeft < 40 && villianLeft > 20 && heroTop >= 130) {
         villain.style.animation = "none";
-        alert("Game Over Boiii!!!", score.innerHTML = 0);
+        alert("Game Over Boiii...", score.innerHTML = 0);
     }
 }, 10);
 
